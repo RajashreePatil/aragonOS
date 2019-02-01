@@ -1,0 +1,25 @@
+{
+	"gammaAccess": {
+		"url": "http://192.168.2.188:3000",
+		"userName": "windows7@mygamma.io",
+		"password": "gamma123"
+	},
+	"repositories": [{
+			"repository": {
+				"uid": "8f3706d413b6fb73c4faa1615a7ed8e4",
+				"projectName": "gamma",
+				"sources": {
+					"baseDir": "$WORKSPACE",
+					"exclusions": ["exclusion_regex", "exclusion_regex"]
+				}
+			},
+			"dataDir": "$GAMMA_DATA",
+			"modules": {
+				"codeissues": [{
+						"name": "solium"
+					}
+				]
+			}
+		}
+	]
+}
