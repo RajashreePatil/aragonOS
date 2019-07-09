@@ -8,14 +8,16 @@
         {
             "dataDir": "",
             "repository": {
-                "uid": "7be2ed2850919e5394ee085f76c84841",
-                "projectName": "argon-sol",
+                "uid": "14995eee4b9914e5604466d26de77424",
+                "projectName": "sol",
                 "languages": [
                     "SOLIDITY"
                 ],
                 "sources": {
                     "baseDir": "",
-                    "exclusions": []
+                    "exclusions": [
+                        "test"
+                    ]
                 }
             },
             "settings": {
